@@ -35,16 +35,20 @@
 
 
             <div class="input1">
-            <button class="label" onclick="clears()" id="grey" >AC</button>
-            <button class="label" onclick="removes()"   id="grey">DC</button>
+              <!-- <button class="label"  onclick="clears()" id="grey" >AC</button> -->
+            <button class="label" class="delete" id="grey" >AC</button>
+            <!-- <button class="label" onclick="removes()"   id="grey">DC</button> -->
+            <button class="labe" id="deletebtn">DC</button>
             <button class="label" onclick="hello('%')"  id="grey">%</button>
             <button class="label" onclick="hello('/')" id="yellow">/</button>
 
           </div>
 
           <div class="input1">
-            <button class="label" onclick="hello('7')" >7</button>
-            <button class="label" onclick="hello('8')" >8</button>
+            <!-- <button class="label" onclick="hello('7')" >7</button> -->
+            <button class="label" id="input"  value="7" >7</button>
+            <button class="label" id="input"  value="8" >8</button>
+            <!-- <button class="label" id="input" onclick="hello('8')" >8</button> -->
             <button class="label" onclick="hello('9')" >9</button>
             <button class="label"  onclick="hello('*')" id="yellow" >*</button>
         
@@ -70,7 +74,7 @@
 
               <button class="label" id="zero" onclick="hello('0')" >0</button>
             <button class="label" onclick="hello('.')" >.</button>
-            <button class="label" onclick="result()" id="yellow">=</button>
+            <button class="labe" onclick="result()" id="yellow">=</button>
            
           </div >
 
